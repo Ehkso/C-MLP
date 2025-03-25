@@ -4,6 +4,7 @@ int main(int argc, char *argv[]){
 		help();
 		return 0;
 	}
+	// These are examples of usage; uncomment one if you want to test it.
 	/*
 	// XOR
 	struct mlp xor = createMLP("xor", 2, 3, 1);
@@ -56,6 +57,7 @@ int main(int argc, char *argv[]){
 	testFromFile(sinMLP, "sinTesting.txt", 100);
 	 */
 
+	/*
 	// UCI
 	struct mlp uciMLP = createMLP("uci", 16, 100, 26);
 	parseUCI(uciMLP, "letter-recognition-training.data");
@@ -65,6 +67,7 @@ int main(int argc, char *argv[]){
 	
 	//trainFromFile(uciMLP, "parsed-letter-recognition-training.data", 6000, 16000, 0.25, 1);
 	//testFromFile(uciMLP, "parsed-letter-recognition-testing.data", 400);
+	//*/
 	
 	return 0;
 }
