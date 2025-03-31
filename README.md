@@ -1,9 +1,8 @@
-# C-onvolutional_NN
-A - catastrophically slow - CNN, written in C.
+# C-MLP
 I'm only making this public to own my mistakes and so people can point fingers and laugh at my precautionary tale.
 
 ## Basically, what happened was this:
-- "CNNs and other Neural Networks are generally written in Python."
+- "MLPs and other Neural Networks are generally written in Python."
 - "But C is faster and more fun than Python"
 - "Let's make a CNN in C!" 
 - - This is fine
